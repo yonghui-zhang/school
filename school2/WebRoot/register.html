@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>注册</title>
+		<link rel="stylesheet" href="ichunqiu/bootstrap.min.css" type="text/css" media="screen">
+		<link rel="stylesheet" href="ichunqiu/login.css" type="text/css" media="screen">
+		
+	<body>
+		<link rel="stylesheet" href="ichunqiu/bootstrap.min.css" type="text/css" media="screen">
+        <link rel="stylesheet" href="ichunqiu/dialog.css" type="text/css" media="screen">
+        <link rel="stylesheet" href="ichunqiu/header.css" type="text/css" media="screen">
+	  	<div class="loginMain newuseryd" style="top: 30px; margin-top: 0px;">	  			
+			<div class="loginBox1">
+			<div class="logo" style="cursor:pointer"><img src="ichunqiu/logo.png"></div>
+			<h2>账号注册</h2>
+			<div class="login-content ">
+				<div class="noticemsg"></div>
+				<div class="form">
+				    <form id="loginFrm" action="servlet/AdminSignOut" method="post" novalidate="novalidate">
+						<div class="form-group clearfix">
+								<div class="usernameBox">
+								   <span class="glyphicon glyphicon-user"></span>													 
+								   <input type="text" autocomplete="off" maxlength="60" name="username" class="form-control" id="username" placeholder="请输入账号">
+								 </div>
+								      <div class="errorMsg" align="left"></div>
+	   							</div>
+							   <div class="form-group clearfix">
+							      <div class="passwordBox">
+							      	<span class="glyphicon glyphicon-lock"></span>
+							         <input type="password" autocomplete="off" maxlength="60" name="password" class="form-control" id="password" placeholder="请输入密码">
+							      </div>
+							      <div class="errorMsg" align="left"></div>
+							   </div>													
+								<div class="form-group">
+									<button type="submit" class="btn loginBtn">注册</button>
+								</div>
+								<div class="form-group reminderDiv">
+									<p style="color: #333; font-size: 14px;">已有账号？<a style="font-size: 14px;" href="login.html" class="nowRegister">立即登录</a></p>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+					<div class="copyrights">
+			 		<p>
+							Copyright &copy; 2017-2020 辉煌集团 All rights reserved.
+						</p>
+			 		</div>
+			</div>
+			<script type="text/javascript" src="ichunqiu/bootstrap.min.js"></script>
+            <script type="text/javascript" src="ichunqiu/mix.js"></script>
+            <script language="JavaScript" type="text/javascript" src="ichunqiu/jquery.validate.min.js"></script>
+            <script type="text/javascript" src="ichunqiu/component.js"></script>
+            <script type="text/javascript" src="ichunqiu/header.js"></script>
+			<script type="text/javascript" src="ichunqiu/login.js"></script>
+    </body>
+</html>

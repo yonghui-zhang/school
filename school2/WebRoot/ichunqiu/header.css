@@ -1,0 +1,552 @@
+.headerbox{
+	width: 100%;
+	min-width: 1100px;
+	height: 56px;
+	background-color: #1A1A1A;
+	border-bottom: 3px solid #F9B728;
+	position: relative;
+}
+
+.headerbox .header{
+	width: 1100px;
+	height: 56px;
+	margin:0 auto;
+	position: relative;
+}
+
+.headerbox .header .headerlogo{
+	width:106px;
+	height: 31px;
+	background:url("../images/newlogo.png") no-repeat;
+	float: left;
+	margin-top: 12px;
+}
+
+.headerbox .header .headernavbox{
+	height: 56px; 
+	float: left;
+	font-family: "Microsoft YaHei","微软雅黑";
+	margin-left: 10px;
+}
+
+.headerbox .header .headernavbox .headernav{
+	width: 93px;
+	height: 100%;
+	color:#ffffff;
+	font-size: 16px;
+	line-height: 56px;
+	text-align: center;
+	cursor: pointer;
+	text-decoration: none;
+	float: left;
+	margin:0 5px;
+	position: relative;
+}
+.headernav a img{
+	z-index: 100px;
+}
+
+.headernav a{
+	color: #FFFFFF;
+}
+
+.headernav a:hover{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.headerbox .header .headernavbox .headernav:hover{
+	background-color: #F9B728;
+	color: #050505;
+}
+
+.headerbox .header .new_search{
+	width:100px;
+	height: 36px;
+	float: left;
+	margin-top: 17px;
+	text-align: center;
+	padding-right: 10px;
+	color: #FFFFFF;
+	font-family: "Microsoft YaHei","微软雅黑";
+	font-size: 16px;
+	position: relative;
+	+z-index:100;
+}
+.headerbox .header .new_search .new_search_sousuo a{
+	color: #FFFFFF;
+	font-family: "Microsoft YaHei","微软雅黑";
+	font-size: 14px;
+	text-decoration: none;
+	background: url(../images/searchsm.png) left no-repeat;
+	padding-left: 20px;
+	
+}
+.headerbox .header .new_search .new_search_sousuo a:hover{
+	color: #F5B740;
+	background: url(../images/searchsma.png) left no-repeat;
+	
+}
+
+.headerbox .header .new_search{
+	width:100px;
+	float: left;
+	margin-top: 17px;
+	text-align: center;
+	padding-right: 10px;
+	color: #FFFFFF;
+	font-family: "Microsoft YaHei","微软雅黑";
+	font-size: 16px;
+	position: relative;
+	+z-index:100;
+}
+.headerbox .header .new_search .new_search_sousuo a{
+	color: #FFFFFF;
+	font-family: "Microsoft YaHei","微软雅黑";
+	font-size: 14px;
+	text-decoration: none;
+	background: url(../images/searchsm.png) left no-repeat;
+	padding-left: 20px;
+	
+}
+.headerbox .header .new_search .new_search_sousuo a:hover{
+	color: #F5B740;
+	background: url(../images/searchsma.png) left no-repeat;
+	
+}
+.new_search .new_search_down{
+	width: 300px;
+	height: 60px;
+	background: #ffffff;
+	border: 1px solid #cccccc;
+	border-radius: 5px;
+	left: -85px;
+	top: 30px;
+	position: absolute;
+	-webkit-transform: scale(0);
+	-ms-transform: scale(0);
+	transform: scale(0); 
+	-webkit-transition: all 0.4s cubic-bezier(0.31, 0.57, 0.68, 1.36);
+    -ms-transition: all 0.4s cubic-bezier(0.31, 0.57, 0.68, 1.36);
+    transition: all 0.4s ;
+    z-index: 999999; 
+    +display: none;
+   
+}
+ .new_search:hover .new_search_down{
+	-webkit-transform: scale(1);
+	-ms-transform: scale(1);
+	transform: scale(1); 
+    -webkit-transition: all 0.4s cubic-bezier(0.31, 0.57, 0.68, 1.36);
+    -ms-transition: all 0.4s cubic-bezier(0.31, 0.57, 0.68, 1.36);
+    transition: all 0.4s ;
+    +display: block;
+   
+	
+}
+.new_search .new_search_down .searchbtn {
+	width: 30px;
+	height: 28px;
+	+width: 33px;
+	+height: 33px;
+	background: #F8B739;
+	position: absolute;
+	right: 11px;
+	+right:7px;
+	top: 16px;
+	
+}
+.new_search .new_search_down .searchbtn img{
+	padding-right: 1px;
+	padding-top: 2px;
+	+padding-right: 1px;
+	+padding-top: 10px;
+}
+
+.new_search .new_search_down .circle{
+	width: 10px;
+	height: 10px;
+	position: absolute;
+	left: 120px;
+	-webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+	top:-5px;
+	background: #ffffff
+
+}
+.new_search .new_search_down .searchmsg{
+	width: 278px;
+    height: 30px;
+    color: #000000;
+    border: solid 1px #D1B98D;
+    
+    /*margin-right: 10px;*/
+    margin:0 auto;
+    margin-top: 15px;
+    padding-left: 8px;
+    outline: none;
+    +line-height: 30px;
+}
+
+.newpic {
+	position: absolute;
+	right: 0px;
+	top:-15px;
+}
+.headerbox .header .loginboxs{
+	width: 84px;
+	height:13px;
+	margin-left: 13px;
+	margin-top: 23px;
+	float: left;
+	font-family: "Microsoft YaHei","微软雅黑";
+	font-size: 13px;
+	line-height: 13px;
+	color: #ffffff;
+	text-align: center;
+	cursor: pointer;
+	/*display: none;*/
+}
+
+.headerbox .header .loginboxs .dl{
+	width: 42px;
+	height: 13px;
+	float: left;
+	border-right: 1px solid #ffffff;
+}
+
+.headerbox .header .loginboxs .zc{
+	width: 41px;
+	height: 13px;
+	float: left;
+}
+
+.headerbox .header .loginboxs a{
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.headerbox .header .headerubox{
+	width: 84px;
+	height: 30px;
+	margin-top: 31px;
+	margin-left: 25px;
+	float: left;
+	position: relative;
+	/*display: none;*/
+}
+
+.headerbox .header .headerubox .headerupic{
+	width: 30px;
+	height: 30px;
+	border-radius: 15px;
+	/*background-color:#ffffff; */
+	float: left;
+	background-size:30px 30px;
+}
+
+.headerbox .header .headerubox .headerupic .headeruserpic{
+	width: 30px;
+	height: 30px;
+	border-radius: 15px;
+}
+
+.headerbox .header .headerubox .headeruname{
+	width: 45px;
+	height: 30px;
+	font-family: "Microsoft YaHei","微软雅黑";
+	font-size: 13px;
+	line-height: 30px;
+	float: left;
+	color: #ffffff;
+	cursor: pointer;
+	margin-left: 5px;
+}
+
+.headerbox .header .headerubox .headeruname .name{
+	width: 37px;
+	height: 30px;
+	text-align: center;
+	display: block;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	float: left;
+}
+
+.headerbox .header .headerubox .headeruname .jiantou{
+	width: 8px;
+	height: 4px;
+	background:url("../images/newheaderjiantou.png") no-repeat;
+	float: right;
+	margin-top: 14px;
+}
+
+/*down menu*/
+#mymenu{
+	/*border:0px solid red;
+	z-index:1100;
+	width: 80px;
+	height:80px;
+	text-align: center;
+	filter: alpha(Opacity=80);
+	/*position:fixed!important;*/
+	/*position:absolute;*/ /*IE6*/
+	/*display:none;
+	right:20px;
+	top:50px;
+	_top:       expression(eval(document.compatMode &&
+		            document.compatMode=='CSS1Compat') ?
+		            documentElement.scrollTop + (document.documentElement.clientHeight-this.offsetHeight)/2 :/*IE6*/
+		      /*      document.body.scrollTop + (document.body.clientHeight - this.clientHeight)/2);
+	background-color: #fbfbfb;
+    -webkit-box-shadow: 1px 1px 1px #dfdfdf;
+    -moz-box-shadow: 1px 1px 1px #dfdfdf;
+    box-shadow: 1px 1px 1px #dfdfdf;
+	clear:both;*/
+	width: 98px;
+	height: 59px;
+	background:url("../images/new/underpush.png") no-repeat;
+	background-size: 98px 59px;
+	position: absolute;
+	right: 0px;
+	top:26px;
+	z-index:1000;
+}
+
+.menubox{
+	width: 98px;
+	height: 54px;
+	margin-top: 5px;
+	border-radius: 5px;
+	text-align: center;
+	overflow: hidden;
+}
+
+.menu{
+	width: 98px;
+	line-height:27px;
+	height:27px;
+	color: #1A1A1A;
+	font-family: 'fzltqhjt',"HansHandItalic", "Microsoft Yahei";
+}
+
+.menu:hover{
+	background-color: #FCC054;
+}
+
+.menu a:link{
+	color: #1A1A1A;
+	font-size:12px;
+	font-family: 'fzltqhjt',"HansHandItalic", "Microsoft Yahei";
+}
+.menu a:hover{
+	color: #1A1A1A;
+	font-size:12px;
+	text-decoration: underline;
+	font-family: 'fzltqhjt',"HansHandItalic", "Microsoft Yahei";
+}
+.menu a:visited{
+	color: #1A1A1A;
+	font-size:12px;
+	font-family: 'fzltqhjt',"HansHandItalic", "Microsoft Yahei";
+}
+.menu a:active{
+	color: #1A1A1A;
+	font-size:12px;
+	font-family: 'fzltqhjt',"HansHandItalic", "Microsoft Yahei";
+}
+
+
+.btnbox{
+	width: 66px;
+	height: 208px;
+	position:fixed; 
+	_position:absolute;
+	bottom:10px;
+	right: 10px;
+	z-index:100;
+}
+.kefulianxi{
+	width: 160px;
+	height: 173px;
+	background:url('../images//wixin.png') no-repeat;
+	background-size:160px 173px;
+	position:fixed; 
+	_position:absolute;
+	bottom:20px;
+	right: 67px;
+	z-index:110;
+	display: none;
+}	
+
+.btnbox .totop{
+	width: 48px;
+	height: 65px;
+	margin:0 auto;
+	background:url('../images/top.png') no-repeat;
+	cursor: pointer;
+	position: relative;
+	right: 2px;
+	top:1px;
+}	
+
+.btnbox .totop:hover{
+	width: 48px;
+	height: 65px;
+	margin:0 auto;
+	background:url('../images/tophg.png') no-repeat;
+	cursor: pointer;
+	background-color: transparent;
+}
+
+.btnbox .borbox{
+	width: 48px;
+	height:39px;
+	margin:0 auto;
+	background:url('../images/baise.png') no-repeat;
+}
+
+.btnbox .borbox .email{
+	width: 48px;
+	height: 32px;
+	margin:0 auto;
+	background:url('../images/email.png') no-repeat;
+	position: relative;
+	top:6px;
+	cursor: pointer;
+	display: block;
+}
+
+.btnbox .borbox .email:hover{
+	width: 48px;
+	height:32px;
+	margin:0 auto;
+	background:url('../images/bemail.png') no-repeat;
+	position: relative;
+	top: 6px;
+	left: 0px;
+}
+
+.btnbox .borbox .edot{
+	width: 8px;	
+	height: 8px;
+	background:url('../images/red.png') no-repeat;
+	position: absolute;
+	left: 21px;
+	bottom: 121px;
+	display:none;
+}
+
+.btnbox .borbox .xiaoxi{
+	width: 48px;
+	height: 32px;
+	margin:0 auto;
+	background:url('../images/xiaoxi.png') no-repeat;
+	position: relative;
+	top:7px;
+	cursor: pointer;
+	display: block;
+}
+
+.btnbox .borbox .xiaoxi:hover{
+	width: 48px;
+	height:32px;
+	margin:0 auto;
+	background:url('../images/bxiaoxi.png') no-repeat;
+	position: relative;
+	top: 6px;
+	left: 0px;
+}
+
+.btnbox .borbox .qq{
+	width: 48px;
+	height: 32px;
+	margin:0 auto;
+	background:url('../images/qq.png') no-repeat;
+	position: relative;
+	top:6px;
+	cursor: pointer;
+	display: block;
+}
+
+.btnbox .borbox .qq:hover{
+	width: 48px;
+	height:32px;
+	margin:0 auto;
+	background:url('../images/bxiaoxi.png') no-repeat;
+	position: relative;
+	top: 7px;
+	left: 0px;
+}
+	
+.btnbox .borbox .lianxi{
+	width: 48px;
+	height: 32px;
+	margin:0 auto;
+	background:url('../images/bq.gif') no-repeat;
+	position: relative;
+	top:6px;
+	cursor: pointer;
+	display: block;
+}
+
+.btnbox .borbox .lianxi:hover{
+	width: 48px;
+	height:32px;
+	margin:0 auto;
+	background:url('../images/bqq.gif') no-repeat;
+	position: relative;
+	top: 7px;
+	left: 0px;
+}	
+
+.roadbox{
+	width: 328px;
+	height: 45px;
+	position: absolute;
+	bottom:-42px;
+	background-color: #1A1C17;
+	z-index:9999;
+	font-family: "Microsoft YaHei", "微软雅黑";
+	font-size: 16px;
+	line-height: 45px;
+	text-align: center;
+	display: none;
+}
+
+.roadbox .web{
+	width: 164px;
+	height: 45px;
+	border-right:1px solid #434343;
+	float: left;
+}
+
+.roadbox .web:hover{
+	color: #F9BF2D;
+}
+
+.roadbox a{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.roadbox a:hover{
+	color: #F9BF2D;
+	text-decoration: none;
+}
+
+.roadbox .android{
+	width: 164px;
+	height: 45px;
+	float: left;
+}
+
+.roadbox .android:hover{
+	color: #F9BF2D;
+}
+
+#hidiv{
+	display: none;
+}

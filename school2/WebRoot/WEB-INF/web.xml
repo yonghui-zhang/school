@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0"
+    xmlns="http://java.sun.com/xml/ns/javaee"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>LoginCheck</servlet-name>
+    <servlet-class>logincheck.LoginCheck</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AdminSignOut</servlet-name>
+    <servlet-class>logincheck.AdminSignOut</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>LoginOut</servlet-name>
+    <servlet-class>logincheck.LoginOut</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SendMsg</servlet-name>
+    <servlet-class>chat.SendMsg</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SendQQ</servlet-name>
+    <servlet-class>chat.SendQQ</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>QQMessageServlet</servlet-name>
+    <servlet-class>chat.QQMessageServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>QQMessageServlet2</servlet-name>
+    <servlet-class>chat.QQMessageServlet2</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SubmitNews</servlet-name>
+    <servlet-class>news.SubmitNews</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UpdateNews</servlet-name>
+    <servlet-class>news.UpdateNews</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DeleteNews</servlet-name>
+    <servlet-class>news.DeleteNews</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SubmitNewPass</servlet-name>
+    <servlet-class>servlet.SubmitNewPass</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DeleteTable</servlet-name>
+    <servlet-class>servlet.DeleteTable</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>InsertStudentInfo</servlet-name>
+    <servlet-class>servlet.InsertStudentInfo</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>InsertScore</servlet-name>
+    <servlet-class>servlet.InsertScore</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>InsertHomework</servlet-name>
+    <servlet-class>servlet.InsertHomework</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>InsertLeave</servlet-name>
+    <servlet-class>servlet.InsertLeave</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>InsertTeacher</servlet-name>
+    <servlet-class>servlet.InsertTeacher</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>InsertParent</servlet-name>
+    <servlet-class>servlet.InsertParent</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>LoginCheck</servlet-name>
+    <url-pattern>/servlet/LoginCheck</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AdminSignOut</servlet-name>
+    <url-pattern>/servlet/AdminSignOut</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LoginOut</servlet-name>
+    <url-pattern>/servlet/LoginOut</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SendMsg</servlet-name>
+    <url-pattern>/servlet/SendMsg</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SendQQ</servlet-name>
+    <url-pattern>/servlet/SendQQ</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>QQMessageServlet</servlet-name>
+    <url-pattern>/servlet/QQMessageServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>QQMessageServlet2</servlet-name>
+    <url-pattern>/servlet/QQMessageServlet2</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SubmitNews</servlet-name>
+    <url-pattern>/servlet/SubmitNews</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateNews</servlet-name>
+    <url-pattern>/servlet/UpdateNews</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteNews</servlet-name>
+    <url-pattern>/servlet/DeleteNews</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SubmitNewPass</servlet-name>
+    <url-pattern>/servlet/SubmitNewPass</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteTable</servlet-name>
+    <url-pattern>/servlet/DeleteTable</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>InsertStudentInfo</servlet-name>
+    <url-pattern>/servlet/InsertStudentInfo</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>InsertScore</servlet-name>
+    <url-pattern>/servlet/InsertScore</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>InsertHomework</servlet-name>
+    <url-pattern>/servlet/InsertHomework</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>InsertLeave</servlet-name>
+    <url-pattern>/servlet/InsertLeave</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>InsertTeacher</servlet-name>
+    <url-pattern>/servlet/InsertTeacher</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>InsertParent</servlet-name>
+    <url-pattern>/servlet/InsertParent</url-pattern>
+  </servlet-mapping>
+  
+  <filter>
+    <filter-name>UserFilter</filter-name>
+    <filter-class>logincheck.UserFilter</filter-class>
+  </filter>
+  <filter-mapping>
+    <filter-name>UserFilter</filter-name>
+    <url-pattern>*.jsp</url-pattern>
+  </filter-mapping>
+
+</web-app>

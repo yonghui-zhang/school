@@ -1,0 +1,3 @@
+school2文件夹是Java Web源代码
+school.bak是数据库的备份文件
+school.war是可以直接进行发布网站的war包
